@@ -180,7 +180,7 @@ main p {
 
     -ms-overflow-style: none;
     scrollbar-width: none;
-    touch-action: none;
+    touch-action: pan-y;
 }
 
 .item_container {

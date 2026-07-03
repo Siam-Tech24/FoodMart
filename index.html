@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodMart</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="product_display_container">
+        <div class="product_display">
+            <button class="close">Close</button>
+            <img src="food_items/1.jpg" alt="">
+            <hr class="hr">
+            <div class="display_name">Burger</div>
+            <div class="price">Price: 120</div>
+            <button class="buy" id="buy">Buy Now</button>
+        </div>
+    </div>
+    <header id="home">
+        <img src="nav_background.png" alt="">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about_section">About Us</a></li>
+            <li><a href="#menu">Food Menu</a></li>
+            <li><a href="#contacts">Contact Us</a></li>
+            <li><a href="#reviews">Customer Reviews</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="hero">
+            <h1>Welcome to FoodMart</h1>
+        </div>
+        <div class="section_breaker"></div>
+        <hr class="hero_hr">
+        <div class="section_breaker" id="about_section"></div>
+        <h2> 🍔 About FoodMart</h2>
+        <div class="part_breaker"></div>
+        <p>
+            Serving delicious meals made with fresh ingredients, great taste, and quick service. Whether you're craving
+            a
+            juicy burger, crispy fries, cheesy pizza, or refreshing drinks, FoodMart has something for everyone.
+        </p>
+        <div class="section_breaker"></div>
+        <hr>
+        <div class="section_breaker"></div>
+        <h3> ⭐ Why Choose FoodMart?</h3>
+        <ul>
+            <li>🍔 Fresh Ingredients</li>
+
+            <li>👨‍🍳 Expert Chefs</li>
+
+            <li>🚚 Fast Delivery</li>
+
+            <li>💰 Affordable Prices</li>
+
+            <li>❤️ Thousands of Happy Customers</li>
+        </ul>
+        <div class="section_breaker"></div>
+        <hr>
+        <div class="section_breaker"></div>
+        <h3>🍟 What We Serve</h3>
+        <ul>
+
+            <li>🍔 Burgers</li>
+
+            <li>🍕 Pizza</li>
+
+            <li>🌭 Hot Dogs</li>
+
+            <li>🍟 French Fries</li>
+
+            <li>🥤 Cold Drinks</li>
+
+            <li>🍩 Desserts</li>
+        </ul>
+        <div class="section_breaker"></div>
+        <hr>
+        <div class="section_breaker"></div>
+        <h3> ❤️ Our Promise</h3>
+        <div class="part_breaker"></div>
+        <p>
+            We believe good food brings people together. That's why we focus on quality, cleanliness, fast service, and
+            customer satisfaction in every order we prepare.
+        </p>
+        <div class="section_breaker"></div>
+        <hr class="hero_hr">
+        <div class="section_breaker" id="menu"></div>
+        <h2>Food Menu</h2>
+        <div class="part_breaker"></div>
+        <div class="var_container">
+            <button class="food_var" id="burger">🍔 Burgers</button>
+            <button class="food_var" id="pizza">🍕 Pizza</button>
+            <button class="food_var" id="hot_dog">🌭 Hot Dogs</button>
+            <button class="food_var" id="fries">🍟 French Fries</button>
+            <button class="food_var" id="drink">🥤 Cold Drinks</button>
+            <button class="food_var" id="sweet">🍩 Desserts</button>
+        </div>
+        <div class="section_breaker"></div>
+        <div class="carousel-wrapper">
+            <button class="nav-btn prev-btn" id="prevBtn">&#10094;</button>
+
+            <div class="main_item_container" id="scrollContainer">
+                <div class="item_container" id="item_container">
+
+                </div>
+            </div>
+
+            <button class="nav-btn next-btn" id="nextBtn">&#10095;</button>
+        </div>
+        <script src="index.js"></script>
+
+        <div class="section_breaker" id="contacts"></div>
+        <hr class="hero_hr">
+        <div class="section_breaker"></div>
+        <h2>📞 Contact Us</h2>
+        <div class="part_breaker"></div>
+        <h3>We'd Love to Hear From You!</h3>
+        <div class="part_breaker"></div>
+        <p>
+            Have a question, feedback, or want to place an order? Our team is always ready to help. Feel free to get in
+            touch with us using any of the methods below.
+        </p>
+
+        <div class="section_breaker"></div>
+        <hr>
+        <div class="section_breaker"></div>
+
+        <h3>📍 Visit Us</h3>
+        <div class="part_breaker"></div>
+        <p>FoodMart Restaurant - 123 Food Street - New York - NY 10001</p>
+        <div class="section_breaker"></div>
+        <hr>
+        <div class="section_breaker"></div>
+
+        <h3>📞 Get in Touch</h3>
+        <ul>
+            <li>📱 Phone: +1 (555) 123-4567</li>
+
+            <li>📧 Email: support@foodmart.</li>
+
+            <li>🌐 Website: www.foodmart.com</li>
+        </ul>
+
+        <div class="section_breaker"></div>
+        <hr>
+        <div class="section_breaker"></div>
+
+        <h3>🕒 Opening Hours</h3>
+        <ul>
+            <li>Monday - Friday: 9:00 AM - 10:00 PM</li>
+
+            <li>Saturday - Sunday: 10:00 AM - 11:00 PM</li>
+        </ul>
+        <div class="section_breaker"></div>
+        <hr>
+        <div class="section_breaker"></div>
+
+        <h3>❤️ Thank You!</h3>
+        <div class="part_breaker"></div>
+        <p>
+            Thank you for choosing FoodMart. We look forward to serving you delicious meals and making every visit a
+            memorable experience.
+        </p>
+        <div class="section_breaker" id="reviews"></div>
+        <hr class="hero_hr">
+        <div class="section_breaker"></div>
+        <div class="reviews">
+            <h2>Customer Reviews</h2>
+            <div class="review">
+                <div class="reviewname">
+                    <h2>Sarah M</h2>
+                </div>
+                <hr>
+                <div class="reviewcomment"> "I ordered a pizza for dinner, and it arrived hot and fresh. Excellent
+                    taste, generous toppings, and very reasonable prices."
+                </div>
+                <div class="reviewstar">⭐⭐⭐⭐⭐</div>
+            </div>
+            <div class="review">
+                <div class="reviewname">
+                    <h2>Micheal R</h2>
+                </div>
+                <hr>
+                <div class="reviewcomment"> "The burgers were incredibly juicy, and the fries were perfectly crispy.
+                    Fast
+                    service and a great atmosphere. I'll definitely be coming back!"</div>
+                <div class="reviewstar">⭐⭐⭐⭐⭐</div>
+            </div>
+            <div class="review">
+                <div class="reviewname">
+                    <h2>Emily T</h2>
+                </div>
+                <hr>
+                <div class="reviewcomment"> "FoodMart has quickly become my favorite place to order from. Friendly
+                    staff,
+                    delicious food, and the desserts are absolutely amazing!"</div>
+                <div class="reviewstar">⭐⭐⭐⭐⭐</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>FoodMart &copy; 2026</p>
+        <h2>Demo Project for Portfolio Purposes</h2>
+        <p>Visit <a href="https://siam-tech24.github.io/Profile">Siam-Tech24</a> to learn more about me and get your
+            own commercial or personal custom website</p>
+    </footer>
+</body>
+
+</html>

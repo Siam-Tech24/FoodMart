@@ -218,6 +218,7 @@ carousel_wrapper.addEventListener("click", (event) => {
 })
 
 
+
 nextBtn.addEventListener('click', () => {
     const sampleCard = item_container.querySelector('.card');
     

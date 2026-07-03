@@ -218,18 +218,34 @@ carousel_wrapper.addEventListener("click", (event) => {
 })
 
 
-const scrollAmount = 425;
-
 nextBtn.addEventListener('click', () => {
-    container.scrollBy({
-        left: scrollAmount,
-        behavior: 'smooth'
-    });
+    const sampleCard = item_container.querySelector('.card');
+    
+    if (sampleCard) {
+        const cardWidth = sampleCard.getBoundingClientRect().width;
+        
+        const containerGap = parseFloat(window.getComputedStyle(item_container).gap) || 0;
+        
+        const liveScrollAmount = cardWidth + containerGap;
+
+        container.scrollBy({
+            left: liveScrollAmount,
+            behavior: 'smooth'
+        });
+    }
 });
 
 prevBtn.addEventListener('click', () => {
-    container.scrollBy({
-        left: -scrollAmount,
-        behavior: 'smooth'
-    });
+    const sampleCard = item_container.querySelector('.card');
+    
+    if (sampleCard) {
+        const cardWidth = sampleCard.getBoundingClientRect().width;
+        const containerGap = parseFloat(window.getComputedStyle(item_container).gap) || 0;
+        const liveScrollAmount = cardWidth + containerGap;
+
+        container.scrollBy({
+            left: -liveScrollAmount, 
+            behavior: 'smooth'
+        });
+    }
 });
